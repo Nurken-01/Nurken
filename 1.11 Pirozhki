@@ -1,0 +1,10 @@
+A = int(input())
+B = int(input())
+N = int(input())
+x = A * N
+y = B * N
+if y > 100:
+    z = y // 100
+    print((x+z), (y % 100))
+else:
+    print(x, y)
